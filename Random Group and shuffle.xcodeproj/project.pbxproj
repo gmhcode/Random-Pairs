@@ -12,16 +12,24 @@
 		90FB726021E8F98A00FAA07F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90FB725E21E8F98A00FAA07F /* Main.storyboard */; };
 		90FB726221E8F98D00FAA07F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FB726121E8F98D00FAA07F /* Assets.xcassets */; };
 		90FB726521E8F98D00FAA07F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90FB726321E8F98D00FAA07F /* LaunchScreen.storyboard */; };
+		90FB726D21E8FB4600FAA07F /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FB726C21E8FB4600FAA07F /* Group.swift */; };
+		90FB727221E8FC6500FAA07F /* GroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FB727121E8FC6500FAA07F /* GroupController.swift */; };
+		90FB727421E90A3300FAA07F /* shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FB727321E90A3300FAA07F /* shuffle.swift */; };
+		90FB727821E90F7F00FAA07F /* GroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FB727721E90F7F00FAA07F /* GroupsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		90FB725721E8F98A00FAA07F /* Six Week Technical Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Six Week Technical Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90FB725721E8F98A00FAA07F /* Random Group and shuffle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Random Group and shuffle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FB725A21E8F98A00FAA07F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90FB725C21E8F98A00FAA07F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		90FB725F21E8F98A00FAA07F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90FB726121E8F98D00FAA07F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90FB726421E8F98D00FAA07F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90FB726621E8F98D00FAA07F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90FB726C21E8FB4600FAA07F /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		90FB727121E8FC6500FAA07F /* GroupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupController.swift; sourceTree = "<group>"; };
+		90FB727321E90A3300FAA07F /* shuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shuffle.swift; sourceTree = "<group>"; };
+		90FB727721E90F7F00FAA07F /* GroupsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +46,7 @@
 		90FB724E21E8F98A00FAA07F = {
 			isa = PBXGroup;
 			children = (
-				90FB725921E8F98A00FAA07F /* Six Week Technical Challenge */,
+				90FB725921E8F98A00FAA07F /* Random group and Shuffle */,
 				90FB725821E8F98A00FAA07F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +54,58 @@
 		90FB725821E8F98A00FAA07F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90FB725721E8F98A00FAA07F /* Six Week Technical Challenge.app */,
+				90FB725721E8F98A00FAA07F /* Random Group and shuffle.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		90FB725921E8F98A00FAA07F /* Six Week Technical Challenge */ = {
+		90FB725921E8F98A00FAA07F /* Random group and Shuffle */ = {
+			isa = PBXGroup;
+			children = (
+				90FB727021E8FC5400FAA07F /* ViewController */,
+				90FB726F21E8FC3E00FAA07F /* Resources */,
+				90FB726E21E8FC2F00FAA07F /* Model */,
+				90FB727121E8FC6500FAA07F /* GroupController.swift */,
+				90FB727321E90A3300FAA07F /* shuffle.swift */,
+			);
+			path = "Random group and Shuffle";
+			sourceTree = "<group>";
+		};
+		90FB726E21E8FC2F00FAA07F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90FB726C21E8FB4600FAA07F /* Group.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90FB726F21E8FC3E00FAA07F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				90FB725A21E8F98A00FAA07F /* AppDelegate.swift */,
-				90FB725C21E8F98A00FAA07F /* ViewController.swift */,
-				90FB725E21E8F98A00FAA07F /* Main.storyboard */,
 				90FB726121E8F98D00FAA07F /* Assets.xcassets */,
 				90FB726321E8F98D00FAA07F /* LaunchScreen.storyboard */,
 				90FB726621E8F98D00FAA07F /* Info.plist */,
 			);
-			path = "Six Week Technical Challenge";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		90FB727021E8FC5400FAA07F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				90FB725C21E8F98A00FAA07F /* ViewController.swift */,
+				90FB727721E90F7F00FAA07F /* GroupsTableViewController.swift */,
+				90FB725E21E8F98A00FAA07F /* Main.storyboard */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		90FB725621E8F98A00FAA07F /* Six Week Technical Challenge */ = {
+		90FB725621E8F98A00FAA07F /* Random Group and shuffle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90FB726921E8F98D00FAA07F /* Build configuration list for PBXNativeTarget "Six Week Technical Challenge" */;
+			buildConfigurationList = 90FB726921E8F98D00FAA07F /* Build configuration list for PBXNativeTarget "Random Group and shuffle" */;
 			buildPhases = (
 				90FB725321E8F98A00FAA07F /* Sources */,
 				90FB725421E8F98A00FAA07F /* Frameworks */,
@@ -79,9 +115,9 @@
 			);
 			dependencies = (
 			);
-			name = "Six Week Technical Challenge";
+			name = "Random Group and shuffle";
 			productName = "Six Week Technical Challenge";
-			productReference = 90FB725721E8F98A00FAA07F /* Six Week Technical Challenge.app */;
+			productReference = 90FB725721E8F98A00FAA07F /* Random Group and shuffle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 90FB725221E8F98A00FAA07F /* Build configuration list for PBXProject "Six Week Technical Challenge" */;
+			buildConfigurationList = 90FB725221E8F98A00FAA07F /* Build configuration list for PBXProject "Random Group and shuffle" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90FB725621E8F98A00FAA07F /* Six Week Technical Challenge */,
+				90FB725621E8F98A00FAA07F /* Random Group and shuffle */,
 			);
 		};
 /* End PBXProject section */
@@ -135,8 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90FB726D21E8FB4600FAA07F /* Group.swift in Sources */,
+				90FB727421E90A3300FAA07F /* shuffle.swift in Sources */,
+				90FB727221E8FC6500FAA07F /* GroupController.swift in Sources */,
 				90FB725D21E8F98A00FAA07F /* ViewController.swift in Sources */,
 				90FB725B21E8F98A00FAA07F /* AppDelegate.swift in Sources */,
+				90FB727821E90F7F00FAA07F /* GroupsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57FTCZV5HS;
-				INFOPLIST_FILE = "Six Week Technical Challenge/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Random group and Shuffle/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57FTCZV5HS;
-				INFOPLIST_FILE = "Six Week Technical Challenge/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Random group and Shuffle/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		90FB725221E8F98A00FAA07F /* Build configuration list for PBXProject "Six Week Technical Challenge" */ = {
+		90FB725221E8F98A00FAA07F /* Build configuration list for PBXProject "Random Group and shuffle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90FB726721E8F98D00FAA07F /* Debug */,
@@ -326,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90FB726921E8F98D00FAA07F /* Build configuration list for PBXNativeTarget "Six Week Technical Challenge" */ = {
+		90FB726921E8F98D00FAA07F /* Build configuration list for PBXNativeTarget "Random Group and shuffle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90FB726A21E8F98D00FAA07F /* Debug */,
